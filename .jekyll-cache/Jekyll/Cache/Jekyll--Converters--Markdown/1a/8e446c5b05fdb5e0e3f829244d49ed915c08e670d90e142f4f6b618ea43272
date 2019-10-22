@@ -1,9 +1,0 @@
-I"†<p>Satu komponen lagi yang harus Anda instal adalah driver JDBC untuk MySQL. Driver ini akan kita perlukan dalam mempelajari koneksi antara database MySQL dengan Java. Database MySQL merupakan database relasional yang paling banyak digunakan di Linux dan Windows. Dengan demikian, akan banyak berguna bagi aplikasi yang sengaja dibangun untuk berjalan di berbagai platform.</p>
-
-<p>Pada post sebelumnya yang berjudul <a href="/teknologi/p-030/instalasi-java-2-sdk-dan-java-ide" target="_blank">Instalasi Java 2 SDK dan Java IDE</a>, dijelaskan cara menginstall JDK dan IDE, dan IDE yang di instal adalah NetBeans. Di dalam NetBeans sudah terdapat driver JDBC, jika ingin menggunakannya klik menu Window&gt;Services atau tekan Ctrl+5. Pilih Databases&gt;Drivers&gt; klik kanan MySQL(Connector/J driver) dan pilih Connect Using</p>
-
-<p><img src="https://farm1.staticflickr.com/275/31411927043_3e3ccc9a91_o_d.png" alt="Connector" class="image-wrapper" /></p>
-
-<p>Jika semua langkah instalasi sudah dilengkapi, tentunya kita dapat melangkah ke tahap selanjutnya dengan tenang. Semua kebutuhan untuk pengembangan aplikasi Java sudah dipersiapkan sebelumnya.</p>
-
-:ET
