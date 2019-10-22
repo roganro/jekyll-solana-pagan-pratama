@@ -1,0 +1,66 @@
+---
+title: Repo For PCLOS 2007
+layout: post
+teaser: Langkah untuk membuat repositori lokal distro linux PCLOS.
+category: teknologi
+tags:
+- linux
+- pclinuxos
+- repositori
+- foss
+author: aderana
+date: '2010-04-25 17:39:28 +0000'
+link: https://94nr0.wordpress.com/2010/04/26/repo-for-pclos-2007/
+---
+
+Membuat Local Repository PC Linux OS 2007
+----------------------------------------
+
+**Langkah 1:**
+
+1. Kunjungi website [http://www.internet-soft.com/download.htm][is]
+2. Klik download FTP Commander Deluxe
+
+**Langkah 2:** [^1]
+
+1. Install FTP Commander Deluxe
+2. Jalankan program ftp deluxe tersebut
+3. Klik connection wizard
+4. Pada pilihan pertama isi dengan nama kambing.ui.edu
+5. Pada pilihan kedua isi dengan nama [ftp://kambing.ui.edu/pclinuxos][kue]
+6. Klik next, terus sampai finish, jika ada kolom id dan password lewatkan saja
+7. Double klik pada kambing.ui.edu
+8. Setelah itu download semua file yang ada disitu dengan cara copy
+9. Paste pada folder yang kamu buat, misalkan kambing (tidak boleh spasi)
+10. Proses download sudah selesai
+
+**Langkah 3:** [^2]
+
+1. Pasangkan Flash Disk anda atau HDD eksternal anda pada komputer anda
+2. Jalankan PC Linux OS 2007
+3. Masuk sebagai root
+4. Klik /etc/apt/sources.list
+5. Berikan tanda # di url repository yang tidak dipakai
+
+   > #### Contoh:
+   > 
+   > #rpm http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/ pclinuxos/2007 main extra nonfree kde 
+
+6. Pilih area yang paling bawah
+7. Ketikan rpm file:///media/CRACKER/Linux/kambing/apt/ pclinuxos/2007 main extra nonfree kde
+8. Klik close, bila ada pilhan save silahkan pilih save
+9. Jangan lupa untuk mount Flash Disk atau HDD eksternal anda
+10. Setelah itu Jalankan Synaptic, lalu klik reload
+
+Selesai sudah, sekarang anda bisa menginstall atau mengupdate.
+
+---
+
+[^1]:
+    Saya mendownload filenya menggunakan windows xp di warnet selama seminggu karena total sizenya kurang lebih sebesar 7 GB, sebaiknya anda minta tolong saja sama yang punya warnet untuk mendownloadnya
+
+[^2]:
+    Saya menaruhnya di flash disk oleh karena itu memakai media, CRACKER = nama Flash Disk Saya, Linux = Tempat Folder kambing
+
+[is]: http://www.internet-soft.com/download.htm
+[kue]: ftp://kambing.ui.edu/pclinuxos

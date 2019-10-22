@@ -1,0 +1,22 @@
+I"©<p>Untuk mempermudah semuanya dalam mempelajari Java, kita ambil potongan contoh sederhana hingga menjadi bentuk dasar paling sederhana dalam setiap latihan yang akan kita buat nantinya.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">nama</span><span class="o">-</span><span class="kd">class</span>
+<span class="err">{</span>
+<span class="nc">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span>
+<span class="o">{</span>
+<span class="o">**</span><span class="n">baris</span><span class="o">-</span><span class="n">baris</span> <span class="n">perintah</span><span class="o">**</span>
+<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Dari bentuk dasar di atas, setiap kali membuat latihan Anda cukup mengganti nama-class dan mengisi baris-baris perintahnya dengan isi program. Baris-baris perintah tersebutlah yang akan dibahas di dalam Forum Dasar-Dasar Java ini. Perhatikan, jangan lupakan blok kode { } untuk memulai class dan metode main. Nantinya, Anda akan memerlukan blok kode tersebut untuk keperluan selain dua hal tersebut.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+
+      <p>Penulisan nama class harus sama dengan nama file Java yang Anda buat. Jika tidak sama maka kompiler akan gagal menciptakan file class (bytecode).Â <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

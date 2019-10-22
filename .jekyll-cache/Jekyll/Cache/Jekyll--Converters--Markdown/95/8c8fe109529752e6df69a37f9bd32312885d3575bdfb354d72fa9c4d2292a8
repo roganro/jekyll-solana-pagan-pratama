@@ -1,0 +1,60 @@
+I"�<p>Desain pemodelan grafik sangat berkaitan dengan grafik komputer. Berikut adalah kegiatan yang berkaitan dengan grafik komputer:</p>
+
+<ol>
+  <li>Pemodelan geometris: menciptakan model matematika dari objek-objek 2D dan 3D.</li>
+  <li>Rendering: memproduksi citra yang lebih solid dari model yang telah dibentuk.</li>
+  <li>Animasi: Menetapkan/menampilkan kembali tingkah laku behaviour objek bergantung waktu.</li>
+</ol>
+
+<p>Kerangka Grafik Komputer</p>
+
+<ol>
+  <li>Graphics Library/package (contoh : OpenGL) adalah perantara aplikasi dan display hardware(Graphics System)</li>
+  <li>Application program memetakan objek aplikasi ketampilan/citra dengan memanggil graphics library</li>
+  <li>Hasil dari interaksi user menghasilkan/modifikasi citra</li>
+  <li>Citra merupakan hasil akhir dari sintesa, disain, manufaktur, visualisasi dll.</li>
+</ol>
+
+<p>Pemodelan Geometris
+Transformasi dari suatu konsep (atau suatu benda nyata) ke suatu model geometris yang bisa ditampilkan pada suatu komputer:</p>
+
+<ul>
+  <li>Shape/bentuk</li>
+  <li>Posisi</li>
+  <li>Orientasi  (cara pandang)</li>
+  <li>Surface Properties / Ciri-ciri Permukaan (warna, tekstur)</li>
+  <li>Volumetric Properties / Ciri-ciri volumetric (ketebalan/pejal, penyebaran cahaya)</li>
+  <li>Lights/cahaya (tingkat terang, jenis warna)</li>
+  <li>Dan lain-lain …</li>
+</ul>
+
+<p>Pemodelan Geometris yang lebih rumit:</p>
+
+<ul>
+  <li>Jala-Jala segi banyak: suatu koleksi yang besar dari segi bersudut banyak, dihubungkan satu sama lain.</li>
+  <li>Bentuk permukaan bebas: menggunakan fungsi polynomial tingkat rendah.</li>
+  <li>CSG: membangun suatu bentuk dengan menerapkan operasi boolean pada bentuk yang primitif.</li>
+</ul>
+
+<p>Elemen-elemen pembentuk Grafik Geometri</p>
+
+<p>Pemrosesan Citra Untuk Ditampilkan di Layar</p>
+
+<p>Hardware Display Grafik: Vektor</p>
+
+<ol>
+  <li>Vetor (calligraphic, stroke, random-scan)</li>
+  <li>Arsitektur Vektor</li>
+</ol>
+
+<p>Hardware Display Grafik: Raster</p>
+
+<ol>
+  <li>Raster (TV, bitmap, pixmap), digunakan dalam layar dan laser printer</li>
+  <li>Arsitektur Raster</li>
+</ol>
+
+<p>Ref:</p>
+
+<p><a href="http://blog.ukmhg.co.cc/view.php?id=50">http://blog.ukmhg.co.cc/view.php?id=50</a></p>
+:ET

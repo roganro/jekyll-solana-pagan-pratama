@@ -1,0 +1,46 @@
+I"<p>Sekarang saya akan membahas Pemrograman Java selanjutnya mengenai If Then Else, berikut adalah contoh dari program yang saya buat:</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.io.*</span><span class="o">;</span>
+<span class="kd">class</span> <span class="nc">PBO2</span> <span class="o">{</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="kd">throws</span> <span class="nc">Exception</span> <span class="o">{</span>
+
+<span class="c1">//input nama</span>
+<span class="nc">DataInputStream</span> <span class="n">x</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataInputStream</span> <span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"Masukkan Nama : "</span><span class="o">);</span>
+<span class="nc">String</span> <span class="n">c</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="na">readLine</span><span class="o">();</span>
+
+<span class="c1">//input nilai</span>
+<span class="nc">DataInputStream</span> <span class="n">dis</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataInputStream</span> <span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"Masukkan Nilai : "</span><span class="o">);</span>
+<span class="nc">String</span> <span class="n">a</span> <span class="o">=</span> <span class="n">dis</span><span class="o">.</span><span class="na">readLine</span><span class="o">();</span>
+<span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="nc">Integer</span><span class="o">.</span><span class="na">parseInt</span><span class="o">(</span><span class="n">a</span><span class="o">);</span> <span class="c1">//variabel a yang dibaca sebagai string akan diterjemahkan sebagai variabel b yang bernilai integer</span>
+
+<span class="c1">//if then else</span>
+<span class="k">if</span><span class="o">(</span><span class="n">b</span><span class="o">&lt;=</span><span class="mi">60</span><span class="o">)</span> <span class="o">{</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Nama : "</span> <span class="o">+</span> <span class="n">c</span><span class="o">);</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Sayang sekali anda Tidak Lulus"</span><span class="o">);</span> <span class="o">}</span>
+<span class="c1">//isi program pilihan 1</span>
+<span class="k">else</span> <span class="o">{</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Nama : "</span> <span class="o">+</span> <span class="n">c</span><span class="o">);</span>
+<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Selamat anda Lulus"</span><span class="o">);</span>
+<span class="o">}</span>
+<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Logika dalam program tersebut adalah, jika kita memasukkan input kurang dari atau sama dengan 60, maka program tersebut akan menjalankan blok program</p>
+
+<p><code class="highlighter-rouge">System.out.println("Nama : " + c);</code>
+<code class="highlighter-rouge">System.out.println("Sayang sekali anda Tidak Lulus");</code></p>
+
+<p>Tetapi sebaliknya, jika input yang kita masukkan lebih dari 60 maka program akan menjalankan blok program</p>
+
+<p><code class="highlighter-rouge">System.out.println("Nama : " + c);</code>
+<code class="highlighter-rouge">System.out.println("Selamat anda Lulus");</code></p>
+
+<p>Berikut adalah hasil Outputnya</p>
+
+<p><img src="/i/pbo2-lulus.png" alt="lulus" class="image-wrapper-left__list" /></p>
+
+<p><img src="/i/pbo2-tidak-lulus.png" alt="tidak lulus" class="image-wrapper-left__list" /></p>
+:ET

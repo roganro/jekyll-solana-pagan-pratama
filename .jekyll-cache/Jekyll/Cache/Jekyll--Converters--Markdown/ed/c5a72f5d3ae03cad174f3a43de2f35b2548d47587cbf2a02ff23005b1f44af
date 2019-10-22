@@ -1,0 +1,65 @@
+I"3
+<h2 id="membuat-local-repository-pc-linux-os-2007">Membuat Local Repository PC Linux OS 2007</h2>
+
+<p><strong>Langkah 1:</strong></p>
+
+<ol>
+  <li>Kunjungi website <a href="http://www.internet-soft.com/download.htm">http://www.internet-soft.com/download.htm</a></li>
+  <li>Klik download FTP Commander Deluxe</li>
+</ol>
+
+<p><strong>Langkah 2:</strong> <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<ol>
+  <li>Install FTP Commander Deluxe</li>
+  <li>Jalankan program ftp deluxe tersebut</li>
+  <li>Klik connection wizard</li>
+  <li>Pada pilihan pertama isi dengan nama kambing.ui.edu</li>
+  <li>Pada pilihan kedua isi dengan nama <a href="ftp://kambing.ui.edu/pclinuxos">ftp://kambing.ui.edu/pclinuxos</a></li>
+  <li>Klik next, terus sampai finish, jika ada kolom id dan password lewatkan saja</li>
+  <li>Double klik pada kambing.ui.edu</li>
+  <li>Setelah itu download semua file yang ada disitu dengan cara copy</li>
+  <li>Paste pada folder yang kamu buat, misalkan kambing (tidak boleh spasi)</li>
+  <li>Proses download sudah selesai</li>
+</ol>
+
+<p><strong>Langkah 3:</strong> <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
+
+<ol>
+  <li>Pasangkan Flash Disk anda atau HDD eksternal anda pada komputer anda</li>
+  <li>Jalankan PC Linux OS 2007</li>
+  <li>Masuk sebagai root</li>
+  <li>Klik /etc/apt/sources.list</li>
+  <li>
+    <p>Berikan tanda # di url repository yang tidak dipakai</p>
+
+    <blockquote>
+      <h4 id="contoh">Contoh:</h4>
+
+      <p>#rpm http://spout.ussg.indiana.edu/linux/pclinuxos/pclinuxos/apt/ pclinuxos/2007 main extra nonfree kde</p>
+    </blockquote>
+  </li>
+  <li>Pilih area yang paling bawah</li>
+  <li>Ketikan rpm file:///media/CRACKER/Linux/kambing/apt/ pclinuxos/2007 main extra nonfree kde</li>
+  <li>Klik close, bila ada pilhan save silahkan pilih save</li>
+  <li>Jangan lupa untuk mount Flash Disk atau HDD eksternal anda</li>
+  <li>Setelah itu Jalankan Synaptic, lalu klik reload</li>
+</ol>
+
+<p>Selesai sudah, sekarang anda bisa menginstall atau mengupdate.</p>
+
+<hr />
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+
+      <p>Saya mendownload filenya menggunakan windows xp di warnet selama seminggu karena total sizenya kurang lebih sebesar 7 GB, sebaiknya anda minta tolong saja sama yang punya warnet untuk mendownloadnya <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+
+      <p>Saya menaruhnya di flash disk oleh karena itu memakai media, CRACKER = nama Flash Disk Saya, Linux = Tempat Folder kambing <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

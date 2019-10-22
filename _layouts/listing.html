@@ -13,11 +13,10 @@ layout: default
 
   {% assign pool = site.posts | where: filter, label %}
 
-{% elsif page.path == 'projects.html' %}
+{% elsif page.title == 'Archives' %}
   {% assign page_type = 'listing' %}
-  {% assign item_type = 'projects' %}
-  {% assign pool = site.projects %}
-  {% assign outbound_link_flag = ' target="_blank"' %}
+  {% assign item_type = 'posts' %}
+  {% assign pool = paginator.posts %}
 
 {% else %}
   {% assign page_type = 'home' %}

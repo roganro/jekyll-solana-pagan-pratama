@@ -1,0 +1,55 @@
+---
+title: 2010 in review
+author: aderana
+date: '2011-01-02 13:06:47 +0000'
+layout: post
+link: https://94nr0.wordpress.com/2011/01/02/2010-in-review/
+category: teknologi
+tags:
+- review
+teaser: Statistik blog selama tahun 2010.
+---
+
+The stats helper monkeys at WordPress.com mulled over how this blog did in 2010, and here's a high level summary of its overall blog health:
+
+![Healthy blog!](http://94nr0.files.wordpress.com/2011/01/meter-healthy4.gif){:class="image-wrapper"}
+
+The _Blog-Health-o-Meter™_ reads This blog is on fire!.
+
+
+## Crunchy numbers
+
+![Featured image](http://94nr0.files.wordpress.com/2011/01/abstract-stats-6.png){:class="image-wrapper"}
+
+_A helper monkey made this abstract painting, inspired by your stats._
+
+
+A Boeing 747-400 passenger jet can hold 416 passengers. This blog was viewed about **3,300** times in 2010. That's about 8 full 747s.
+
+In 2010, there were **26** new posts, not bad for the first year! There were **8** pictures uploaded, taking up a total of 1mb.
+
+The busiest day of the year was May 26th with **63** views. The most popular post that day was [Tv Streaming](http://94nr0.wordpress.com/2010/04/26/tv-streaming/).
+
+
+## Where did they come from?
+
+The top referring sites in 2010 were **roganro.web44.net**, **ray16.info**, **id.wordpress.com**, **google.co.id**, and **facebook.com**.
+
+Some visitors came searching, mostly for **tsubasa chronicle**, **tsubasa reservoir chronicle**, **cara membuat tv streaming**, **script npc ro**, and **tsubasa reservoir chronicle wallpaper**.
+
+
+## Attractions in 2010
+
+These are the posts and pages that got the most views in 2010.
+
+1. [Tv Streaming](http://94nr0.wordpress.com/2010/04/26/tv-streaming/) April 2010
+
+   18 comments
+2. [Bikin Proxy Server Di Windows](http://94nr0.wordpress.com/2010/04/26/bikin-proxy-server-di-windows/) April 2010
+3. [Tsubasa Chronicle](http://94nr0.wordpress.com/2010/05/01/tsubasa-chronicle/) May 2010
+
+   12 comments and 1 Like on WordPress.com,
+4. [Tsubasa Reservoir Chronicle](http://94nr0.wordpress.com/2010/06/24/tsubasa-reservoir-chronicle/) June 2010
+
+   6 comments
+5. [Source Npc For Ragnarok](http://94nr0.wordpress.com/2010/04/26/source-npc-for-ragnarok/) April 2010

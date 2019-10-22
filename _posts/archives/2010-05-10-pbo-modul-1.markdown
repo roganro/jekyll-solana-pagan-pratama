@@ -1,0 +1,51 @@
+---
+title: PBO Modul 1
+author: aderana
+date: '2010-05-10 14:53:15 +0000'
+layout: post
+link: https://94nr0.wordpress.com/2010/05/10/pbo-modul-1/
+category: teknologi
+tags:
+- java
+- code
+teaser: Membuat program Konversi Temperatur sederhana menggunakan bahasa pemrograman
+  Java.
+---
+
+Tanpa banyak basa-basi lagi, disini saya akan share semua yang saya pelajari dari modul 1 ini, yaitu membuat program Konversi Temperatur di Java. Langsung saja lihat penjelasannya sekaligus source codenya dibawah ini.
+
+### //nama file : Temperatur.java
+
+```java
+import java.io.*;
+class Temperatur
+{
+public static void main(String[] args) throws Exception
+{
+System.out.println("-------------------------------");
+System.out.println("|-----Konversi Temperatur-----|"); //Menampilkan kata “Konversi Temperatur” di layar
+System.out.println("-------------------------------");
+int r,f; //Deklarasikan 2 variabel yang akan digunakan untuk menampung nilai temperatur reamur dan fahrenheit
+
+//Menampilkan kata “Input Celcius:” kemudian user diminta untuk meng-input nilai berupa angka.
+DataInputStream a = new DataInputStream (System.in);
+System.out.print("Input Celcius : ");
+String i = a.readLine(); //hasil input berupa variabel string
+int c = Integer.parseInt(i); //dan diubah menjadi integer untuk perhitungan
+
+//perhitungan
+r = c * 4/5; //temperatur reamur = temperatur celcius * 4/5
+f = c * 9/5 + 32; //fahrenheit = temperatur celcius * 9/5 +32
+
+//cetak
+System.out.println("Temperatur Celcius = " + c); //Menampilkan “temperatur Celcius=”
+System.out.println("Temperatur Reamur = " + r); //Menampilkan “temperatur Reamur=”
+System.out.println("Temperatur Fahrenheit = " + f); //Menampilkan “temperatur Fahrenheit=”
+
+}
+}
+```
+
+Dibawah adalah hasil outputnya nih :
+
+![Temperatur-PBO1](/i/pbo1.png){:class="image-wrapper-left__list"}

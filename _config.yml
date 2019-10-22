@@ -2,15 +2,15 @@
 # Theme Customization #
 #######################
 
-title: J. Bravo                             # used in <title> tag & site header
-author: Johnny Bravo                        # used in a <meta> tag & /feed.xml
+title: Pagan                              # used in <title> tag & site header
+author: Pagan                               # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
-  Hello 911 emergency, there's a handsome guy in my house!
-  Oh wait a second, cancel that. It's only me.
-slogan: Showtime!                           # used in site header, beside title
+  Blog pribadi yang berisi kumpulan tulisan random,
+  Berasal dari pengalaman yang pernah saya alami.
+slogan: Pratama                            # used in site header, beside title
 avatar: /i/avatar.png                       # used as portrait in site header
 banner: /i/mountains.svg                    # used as background in site header
-url: http://solana.ryanlue.com              # used by plugins to generate feed.xml and sitemap.xml
+url: https://roganro.github.io            # used by plugins to generate feed.xml and sitemap.xml
 baseurl: ''                                 # prepended to all absolute filepaths
 repo: https://github.com/rlue/jekyll-solana # used in footer
 
@@ -20,48 +20,24 @@ nav_menu:
   - name: Posts
     url: /
     icon: /i/icons.svg#posts # icons should be 24x24 px.
-  - name: Projects
-    url: /projects
+  - name: Archives
+    url: /archives
     icon: /i/icons.svg#portfolio
   - name: GitHub
-    url: https://github.com/rlue/
+    url: https://github.com/roganro
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
   - name: Contact
     scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
+    handle: pagan_pratama       # you know, to protect you from bots. (handle and domain
+    domain: yahoo.co.id # are separated in case bots crawl GitHub repos, too.)
     icon: /i/icons.svg#email
-
-# Objects listed here will appear on the /projects.html page.
-projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue/jekyll-solana
-    role: Creator
-    category: Frontend Dev
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
-    role: Core Team
-    category: NLP
-  - title: Rihanna
-    teaser: Possibly another robot. Also available on Google Play.
-    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
-    role: Contributor
-    category: Algorithmic Composition
 
 #################
 # Site Settings #
 #################
 
 incremental: true
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - TODO.md
 
 permalink: /:collection/:path
 
@@ -69,20 +45,51 @@ collections:
   category: { output: true }
   tag:      { output: true }
 
-defaults:
-  - scope:  { type:   posts    }
-    values: { layout: post     }
-  - scope:  { type:   tag      }
-    values: { layout: listing  }
-  - scope:  { type:   category }
-    values: { layout: listing  }
+paginate_multiple:
+  - paginate: 10
+    paginate_path: '/page/:num'
+    sub_dir: '/'
+  - paginate: 10
+    paginate_path: '/archives/page/:num'
+    sub_dir: '/archives'
 
+# Sass/SCSS settings
 sass:
   sass_dir: _assets/css
 
+# Collection Defaults
+defaults:
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: post
+    permalink: /:categories/p-:y_day/:title
+    comments: true
+- scope:
+    type: tag
+  values:
+    layout: listing
+- scope:
+    type: category
+  values:
+    layout: listing
+- scope:
+    path: _posts/archives
+    type: posts
+  values:
+    layout: post
+    permalink: /archives/:categories/p-:y_day/:title
+    comments: false
+
+# File Handling
+include: [archives]
+exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json, TODO.md, .travis.yml, bin/*, circle.yml, yarn.lock]
+
+# Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-paginate-multiple
   - jekyll-feed
   - jekyll-sitemap
-
-paginate: 10
+  - jekyll-admin

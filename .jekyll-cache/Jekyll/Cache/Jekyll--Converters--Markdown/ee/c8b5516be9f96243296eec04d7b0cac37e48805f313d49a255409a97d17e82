@@ -1,0 +1,52 @@
+I"Ÿ<p>Jika hanya untuk kepentingan mengoperasikan Java bytecode, Anda hanya cukup menginstal <em>Java Runtime Environment</em> (JRE). Namun, dengan hanya mengandalkan JRE, Anda tidak dapat membuat program dalam bahasa Java. Dibutuhkan lebih dari sekedar JRE, yaitu SDK (<em>Software Development Kit</em>) yang mempunyai compiler didalamnya, selain JRE. Berikut ini langkah-langkah untuk menginstall Java (SDK tentunya) pada Linux.</p>
+
+<ol>
+  <li>Dapatkan file instalasi Java 2 SDK dengan cara download di website Oracle melalui <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a>.</li>
+  <li>Pilih NetBeans with JDK 8 (Pada saat saya mendownload, versi yang dianjurkan adalah JDK 8u111 with NetBeans 8.2).</li>
+  <li>Klik Accept License Agreement.</li>
+  <li>Pilih file instalasi yang sesuai dengan arsitektur sistem operasi Linux yang anda gunakan (Saat ini saya menggunakan Ubuntu 16.10 x64, oleh karena itu saya mendownload file untuk Linux x64).</li>
+  <li>
+    <p>Setelah download, file yang Anda peroleh masih berupa file shell script (jdk-8u111-nb-8_2-linux-x64.sh) yang belum dapat dieksekusi. Untuk itu ubah mode file tersebut di direktorinya agar dapat dieksekusi dengan cara:</p>
+
+    <p><code class="highlighter-rouge">shell&gt; chmod +x jdk-8u111-nb-8_2-linux-x64.sh</code></p>
+  </li>
+  <li>
+    <p>Kemudian, eksekusi file tersebut di direktorinya melalui:</p>
+
+    <p><code class="highlighter-rouge">shell&gt; ./jdk-8u111-nb-8_2-linux-x64.sh</code></p>
+  </li>
+  <li>Selanjutnya, akan ditampilkan halaman instalasi, klik tombol next dan anda akan dihadapkan di direktori mana anda akan menginstall JDK (contoh punya saya ada di /home/pagan/jdk1.8.0_111). Lalu dihalaman selanjutnya anda akan ditanya untuk di direktori mana anda akan menginstall NetBeans IDE (contoh kepunyaan saya ada di /home/pagan/netbeans-8.2) dan direktori JDK yang akan dipakai oleh NetBeans.</li>
+</ol>
+
+<p>Setelah instalasi selesai, langkah terakhir adalah memodifikasi PATH dan CLASSPATH, dengan cara (disini saya menggunakan ubuntu 16.10, tiap linux mempunyai cara pengaturan yang berbeda, tetapi prinsipnya tetap sama, jadi disesuaikan saja):</p>
+
+<ol>
+  <li>Masuklah ke console</li>
+  <li>
+    <p>Ketiklah</p>
+
+    <p><code class="highlighter-rouge">shell&gt; nano .bashrc</code></p>
+  </li>
+  <li>
+    <p>Pada akhir baris, ketiklah:</p>
+
+    <p><code class="highlighter-rouge">export JAVA_HOME=/home/pagan/jdk1.8.0_111</code></p>
+
+    <p><code class="highlighter-rouge">export PATH=$JAVA_HOME/bin:$PATH</code></p>
+
+    <p><code class="highlighter-rouge">export CLASSPATH=./:$CLASSPATH</code></p>
+
+    <p>/home/pagan/jdk1.8.0<em>111 merupakan direktori Java2 SDK yang tadi kita install, ini bisa dirubah sesuai di direktori mana anda menginstall Java2 SDK. Direktori _bin</em> merupakan lokasi file executable dari berbagai program Java, antara lain <em>javac</em> (untuk compiler kode java) dan <em>java</em> (untuk menjalankan file class dari hasil compiler). Sedangkan untuk CLASSPATH digunakan untuk menempatkan direktori kerja sebagai salah satu lokasi pencarian file class.</p>
+  </li>
+  <li>Pencet tombol Ctrl+X, Y, dan Enter.</li>
+  <li>
+    <p>Keluarlah dari console dengan cara mengetik exit, buka console baru dan ketiklah $JAVA_HOME. Jika sudah benar hasilnya akan seperti ini:</p>
+
+    <p><code class="highlighter-rouge">bash: /home/pagan/jdk1.8.0_111: Is a directory</code></p>
+  </li>
+  <li>Dan perintah <em>java</em> dan <em>javac</em> sudah bisa digunakan.</li>
+</ol>
+
+<p>Sekian dulu untuk tutor kali ini, kalau ada yang membingungkan, tanyakan saja di thread ini langsung atau bisa contact saya lewat pm atau email.</p>
+
+:ET

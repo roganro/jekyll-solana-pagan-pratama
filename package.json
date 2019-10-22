@@ -1,0 +1,6 @@
+{
+  "name": "webdeploy",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}

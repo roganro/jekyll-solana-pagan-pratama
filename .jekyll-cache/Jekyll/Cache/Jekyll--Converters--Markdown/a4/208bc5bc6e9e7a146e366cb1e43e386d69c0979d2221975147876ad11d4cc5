@@ -1,0 +1,11 @@
+I"ò<p>Caranya mudah. Yang perlu anda lakukan adalah menginstall paket w32codecs. Sebelumnya buat atau tambahkan dulu repo Medibuntu di sources.list anda.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">echo</span> <span class="s2">"deb http://packages.medibuntu.org/ jaunty free non-free"</span> <span class="o">&gt;&gt;</span> /etc/apt/sources.list
+
+apt-get update
+
+apt-get <span class="nb">install </span>w32codecs
+</code></pre></div></div>
+
+<p>Nah, seharusnya sekarang anda sudah bisa menjalankan file .rmvb (biasanya anime atau film-film yang didownload dari internet). Tentunya dengan syarat anda sudah memiliki player yang sudah terinstall. Misalnya, mplayer, totem atau vlc.</p>
+:ET

@@ -1,0 +1,56 @@
+I"+<p>Misalkan ada switch yang rusak kesamber petir, 1 switch itu dapat mengakibatkan gangguan terhadap jaringan lainnya. Contohnya:</p>
+
+<blockquote>
+  <h4 id="nih-ada-4-pc">nih ada 4 pc:</h4>
+
+  <p><code class="highlighter-rouge">pc 1 reply ke pc 2</code>
+<code class="highlighter-rouge">pc 1 rto ke pc 3</code>
+<code class="highlighter-rouge">pc 1 rto  ke pc 4</code></p>
+
+  <p><code class="highlighter-rouge">pc 2 reply ke pc 1</code>
+<code class="highlighter-rouge">pc 2 rto ke pc 3</code>
+<code class="highlighter-rouge">pc 2 reply ke pc 4</code></p>
+
+  <p><code class="highlighter-rouge">pc 3 rto ke pc 4</code>
+<code class="highlighter-rouge">pc 3 rto ke pc 1</code>
+<code class="highlighter-rouge">pc 3 rto ke pc 2</code></p>
+
+  <p><code class="highlighter-rouge">pc 4 rto ke pc  1</code>
+<code class="highlighter-rouge">pc 4 rto ke pc 2</code>
+<code class="highlighter-rouge">pc 4 rto ke pc 3</code></p>
+</blockquote>
+
+<p>yg bikin gw bingung itu, rto tapi masih ada pc yg bisa chattingan, tapi  ga bisa ngambil share, tapi bisa buka webserver di pc yg rto itu. zzz,  jng kan begitu, yang lebih aneh lagi ada pc yg rto ke pc yang masang  squid tapi bisa pake proxy pc yg masang squid itu. zzz</p>
+
+<p>Sebenarnya masalah ini sudah lama, cuman baru kali ini saya dapat menuliskannya ke blog.  dan sudah dijawab oleh <a href="http://depredac0de.net/discussion/memberlist.php?mode=viewprofile&amp;u=2">5ynL0rd</a></p>
+
+<p>klo switch rusak masalah yg paling sering paling elconya jebol (ini  jelas ngaruh, gampang RTO &amp; switching sering terganggu), biasanya  panas berlebih di switch, atau masalah cache switch yg penuh (byk yg mac  flooding atau ada worm yg tindakannya mac flooding jg), kalo tu cache  penuh:</p>
+
+<ul>
+  <li>switch jadi revert ke hub untuk alamat hardware yang  tidak dapat diterima cache. Performa switch bakal menurun, tapi traffic  akan terus berjalan untuk mengantarkan paket.</li>
+  <li>switch bisa membagi  ke buffer dan menerima data baru. Paket akan dikirim ke hub sampai  switch mempelajari penempatan port dari host (switch2 sekarang)</li>
+</ul>
+
+<p>masalah  diatas kalo memang hardwarenya udah baik, bisa lari ke:</p>
+<ul>
+  <li>firewall</li>
+  <li>worm</li>
+  <li>salah konfigurasi</li>
+</ul>
+
+<p><img src="http://94nr0.files.wordpress.com/2010/04/code.jpg" alt="network" class="image-wrapper" /></p>
+
+<p>switch B anggap  rusak, maka:</p>
+<ul>
+  <li>client A masih bisa terhubung ke Internet, Client B  Jelas tidak bisa.</li>
+  <li>Client A tidak bisa berkomunikasi ke B, tetapi  bisa berkomunikasi ke C, begitu juga dengan C, bisa berkomunikasi ke A  tetapi tidak bisa berkomunikasi ke B</li>
+</ul>
+
+<p>kalo nentuin switch mana yg  rusak simpel, bangun koneksi sama host2 yg berhubungan langsun ma tu  switch, misal switch A rusak, otomatis client B ga bisa komunikasi ke A,  C bahkan ke Internet (karena router terhubung langsung ke switch A).</p>
+
+<p>itu  asumsi kalo switch benar2 ga bisa berfungsi sm sekali (parahnya ga  nyala sm sekali), kalo switch yg bermasalah sama kinerja (panas)  biasanya sekedar bangun koneksi masih bisa, tapi kalo udah tes througput  bakal buruk, cara paling sederhana transfer data dgn jumlah cukup besar  atau uji keseimbangan downstream n upstreamnya sama aplikasi2 yg butuh  latency tinggi (misal game).</p>
+
+<p>nb: membangun koneksi macem2 caranya,  bisa cuma sekedar 3 way handshake ke port yg diyakini terbuka, bisa  pake ICMP (ping, traceroute), ato manfaatin service jaringan yg ada di  host tujuan</p>
+
+<p>nih diskusi yang lebih legkapnya -&gt; <a href="http://depredac0de.net/discussion/viewtopic.php?f=112&amp;t=217&amp;start=20">sumber</a></p>
+:ET

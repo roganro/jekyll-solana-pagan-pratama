@@ -1,0 +1,54 @@
+I"�<p>Setelah PATH dan CLASSPATH untuk Java 2 SDK diaktifkan, Anda sudah dapat membuat program Java dengan menulis kodenya di text editor pilihan, kemudian mengkompilasinya untuk kemudian menjalankannya.</p>
+
+<p>Dalam menulis program, pemberian nama file Java sebaiknya disamakan dengan nama class utama dalam program. Hal ini akan banyak membantu Anda mengingat file class yang tercipta dari proses kompilasi dan bermanfaat jika Anda menggunakan tool yang akan dibahas pada tutor setelah ini. Contohnya dapat dilihat pada listing sederhana di bawah ini.</p>
+
+<p>Listing <strong>ProgramPertama.java</strong></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">ProgramPertama</span>
+<span class="o">{</span>
+ <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span>
+ <span class="o">{</span>
+  <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printl</span><span class="o">(</span><span class="s">"Membuat program dengan Java"</span><span class="o">);</span>
+ <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<blockquote>
+  <h4 id="pembuatan-file-programpertamajava-dengan-nano-editor">Pembuatan file ProgramPertama.java dengan nano editor</h4>
+
+  <p><img src="https://farm1.staticflickr.com/760/32059089132_57e13e8b5d_o_d.png" alt="ProgramPertama" class="image-wrapper-left__list" /></p>
+
+  <p><img src="https://farm1.staticflickr.com/589/31397621763_1f77708253_o_d.png" alt="ProgramPertamaSource" class="image-wrapper-left__list" /></p>
+</blockquote>
+
+<p>Dapat Anda perhatikan dalam contoh di atas, nama file yang digunakan sama dengan nama class utama di dalamnya, baik huruf besar maupun kecilnya.</p>
+
+<p>Sedangkan untuk proses kompilasi bisa dilakukan dengan baiksetelah source-code Java selesai dibuat. Perintah untuk kompilasi adalah sebagai berikut:<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<p><code class="highlighter-rouge">shell&gt; javac namafile.java</code></p>
+
+<p>Hasil yang Anda peroleh dari perintah di atas adalah file .class yang dapat dieksekusi dengan hanya menggunakan Java Runtime Environment. Perintah untuk menjalankan file .class tersebut adalah sebagai berikut:<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup></p>
+
+<p><code class="highlighter-rouge">shell&gt; java namafile</code></p>
+
+<blockquote>
+  <p>Hasil kompilasi file ProgramPertama.java menjadi .class dan output dari program yang dibuat</p>
+
+  <p><img src="https://farm1.staticflickr.com/759/31397621353_bb0108bd11_o_d.png" alt="hasil" class="image-wrapper-left__list" /></p>
+</blockquote>
+
+<p>Pada Java, program tidak dikompilasi langsung pada hardware masing-masing. Bytecode yang dihasilkan dari compiler (javac), harus diterjemahkan lebih dahulu melalui interpreter (java) sebelum dijalankan pada masing-masing hardware. Jika dilihat dari sisi yang menguntungkan, bytecode dapat dijalankan di semua hardware (yang sudah mempunyai interpreter). Namun, jika dilihat dari sisi yang tidak menguntungkan, proses berjalan lebih lambat dari aplikasi non-Java. Aplikasi non-Java langsung dapat langsung dieksekusi pada masing-masing hardware, namun tidak akan jalan di platform yang lain.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+
+      <p>Oleh karena Anda bekerja di lingkungan Linux, huruf besar dan huruf kecil sangat mempengaruhi (case-sensitive). Jadi, perhatikan huruf-huruf dari nama file yang akan dikompilasi. Jangan lupa menyertakan ekstensi .java (<em>dot</em> java) dalam menuliskan nama file yang akan dikompilasi. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+
+      <p>Berbeda dengan proses kompilasi yang mengharuskan Anda menyertakan ekstension .java, dalam eksekusi file class dari Java Anda tidak perlu menulis ekstensi .class (<em>dot</em> class) di belakang nama file yang akan dieksekusi. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

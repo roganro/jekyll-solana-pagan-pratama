@@ -1,0 +1,59 @@
+---
+title: PBO 2
+author: aderana
+date: '2010-05-25 08:42:37 +0000'
+layout: post
+link: https://94nr0.wordpress.com/2010/05/25/pbo-2/
+category: teknologi
+tags:
+- java
+- code
+teaser: Membahas Pemrograman Java mengenai If Then Else.
+---
+
+Sekarang saya akan membahas Pemrograman Java selanjutnya mengenai If Then Else, berikut adalah contoh dari program yang saya buat:
+
+```java
+import java.io.*;
+class PBO2 {
+public static void main(String[] args) throws Exception {
+
+//input nama
+DataInputStream x = new DataInputStream (System.in);
+System.out.print("Masukkan Nama : ");
+String c = x.readLine();
+
+//input nilai
+DataInputStream dis = new DataInputStream (System.in);
+System.out.print("Masukkan Nilai : ");
+String a = dis.readLine();
+int b = Integer.parseInt(a); //variabel a yang dibaca sebagai string akan diterjemahkan sebagai variabel b yang bernilai integer
+
+//if then else
+if(b<=60) {
+System.out.println("Nama : " + c);
+System.out.println("Sayang sekali anda Tidak Lulus"); }
+//isi program pilihan 1
+else {
+System.out.println("Nama : " + c);
+System.out.println("Selamat anda Lulus");
+}
+}
+}
+```
+
+Logika dalam program tersebut adalah, jika kita memasukkan input kurang dari atau sama dengan 60, maka program tersebut akan menjalankan blok program
+
+`System.out.println("Nama : " + c);`
+`System.out.println("Sayang sekali anda Tidak Lulus");`
+
+Tetapi sebaliknya, jika input yang kita masukkan lebih dari 60 maka program akan menjalankan blok program
+
+`System.out.println("Nama : " + c);`
+`System.out.println("Selamat anda Lulus");`
+
+Berikut adalah hasil Outputnya
+
+![lulus](/i/pbo2-lulus.png){:class="image-wrapper-left__list"}
+
+![tidak lulus](/i/pbo2-tidak-lulus.png){:class="image-wrapper-left__list"}

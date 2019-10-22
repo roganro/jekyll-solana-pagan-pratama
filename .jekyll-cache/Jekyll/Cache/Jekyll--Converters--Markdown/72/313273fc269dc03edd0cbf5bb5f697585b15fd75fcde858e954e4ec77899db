@@ -1,0 +1,50 @@
+I"�<p><img src="http://94nr0.files.wordpress.com/2012/05/tts.png" alt="Steganografi" class="image-wrapper" /></p>
+
+<p>Kriptografi adalah cara yang paling umum untuk penyampaian pesan rahasia dari pihak pertama ke pihak ke dua, meskipun kekuatan keamanannya tergantung algoritme kriptografi apa yang digunakan. Meskipun kriptografi memiliki kekuatan keamanan tertentu dalam menyampaikan pesan rahasia namun hal tersebut mampu menimbulkan kecurigaan dari pihak yang tidak lain yang juga ingin mengetahui isi pesan tersebut. Hal ini disebabkan karena secara umum prinsip kriptografi adalah mengubah suatu pesan yang bisa dipahami secara langsung menjadi kode-kode yang tidak bisa dipahami secara langsung, sehingga pihak lain yang melihat adanya pengiriman kode-kode tersebut akan mencurigai bahwa kode-kode tersebut adalah suatu pesan rahasia. Mereka akan berusaha dengan segala cara untuk mengetahui isi dari pesan tersebut.</p>
+
+<p>Steganografi adalah jawaban terhadap tantangan di atas. Steganografi tidak mengubah pesan menjadi kode-kode tertentu melainkan menyisipkan pesan pada suatu objek, dimana objek yang telah disisipi pesan tidak akan mengalami perubahan fisik secara kasat mata. Hal ini menguntungkan karena tidak akan menimbulkan kecurigaan pihak lain.</p>
+
+<p>Setelah proses perancangan dan <em>coding</em> program selesai, selanjutnya adalah pengimplementasian dan ujicoba program aplikasi. Di bawah ini merupakan tampilan output aplikasi Steganografi yang dibuat menggunakan MATLAB:</p>
+
+<ul>
+  <li>
+    <h2 id="struktur-navigasi">Struktur Navigasi</h2>
+
+    <p><img src="https://94nr0.files.wordpress.com/2012/05/untitled12121.png" alt="Struktur Navigasi" class="image-wrapper-left__list" /></p>
+  </li>
+  <li>
+    <h2 id="tampilan-menu-steganografi">Tampilan Menu Steganografi</h2>
+
+    <p><img src="/i/menu.png" alt="Menu" class="image-wrapper-left__list" /></p>
+
+    <p><img src="/i/menu-2.png" alt="Menu" class="image-wrapper-left__list" /></p>
+  </li>
+  <li>
+    <h2 id="tampilan-proses-kerja-program-encode">Tampilan Proses Kerja Program Encode</h2>
+
+    <p><img src="/i/encode-1.png" alt="Encode" class="image-wrapper-left__list" /></p>
+
+    <p><img src="/i/encode-2.png" alt="Encode" class="image-wrapper-left__list" /></p>
+
+    <p><img src="/i/encode-3.png" alt="Encode" class="image-wrapper-left__list" /></p>
+
+    <p><img src="/i/encode-4.png" alt="Encode" class="image-wrapper-left__list" /></p>
+
+    <p><img src="/i/encode-5.png" alt="Encode" class="image-wrapper-left__list" /></p>
+  </li>
+  <li>
+    <h2 id="tampilan-proses-kerja-program-decode">Tampilan Proses Kerja Program Decode</h2>
+
+    <p><img src="/i/decode-1.png" alt="Decode" class="image-wrapper-left__list" /></p>
+
+    <p><img src="/i/decode-2.png" alt="Decode" class="image-wrapper-left__list" /></p>
+
+    <p><img src="/i/decode-3.png" alt="Decode" class="image-wrapper-left__list" /></p>
+  </li>
+</ul>
+
+<h4 id="referensi">Referensi</h4>
+
+<p>[1] Habes, Alkhraisat (2006),”Information Hiding in BMP image Implementation, Analysis and Evaluating ”, <em>Information Transmition in Computer Network</em>, Saint Petersburg Institute for Informatics and Automation, Russian Academy of Sciences, Saint Petersburg, Russia.</p>
+
+:ET
