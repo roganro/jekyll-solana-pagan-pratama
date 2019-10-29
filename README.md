@@ -14,7 +14,7 @@ Solana – a Wholesome, Flat, Sunshiny Jekyll Theme
 
 ![](https://raw.githubusercontent.com/rlue/i/master/solana/responsive.gif)
 
-![](https://raw.githubusercontent.com/rlue/i/master/solana/device_mockup.png)
+![](https://live.staticflickr.com/65535/48981450192_e20e9268fb_o_d.jpg)
 
 Installation
 ------------
