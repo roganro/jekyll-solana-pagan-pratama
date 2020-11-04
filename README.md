@@ -80,19 +80,19 @@ Now, these scripts will run every time you `git commit`, ensuring that your cate
 ### Page
 
 This repository automatically generates archives pages, You can modify it by editing `_config.yml`, create a directory according to the page that you created in `_config.yml`
-
+```
 ├── jekyll-solana-pagan-pratama
 |   └── archives (This is an example directory that I created, you can change it)
 │       └── index.html
-
+```
 and place the posts created for pages like this
-
+```
 ├── jekyll-solana-pagan-pratama
 |   └── _posts
 │       ├── post_for_the_main_page.md
 │       └── archives (You can change it according to the page you created)
 │           └── post_for_archives_page.markdown
-
+```
 #### Explanation
 
 Solana implements categories and tags as [‘collections’][doc-col], meaning each has its own top-level directory in the project root (`/_category` & `/_tag`). Inside these directories, there is a file representing each category or tag.
@@ -109,7 +109,8 @@ As a static site generator, Jekyll has no means to provide a commenting system. 
 
 3. Copy and paste the Universal Embed Code under post.html layout
 
-```{% comment %}
+```
+{% comment %}
 {% endcomment %}
 
 {% if page.comments %}
@@ -120,7 +121,8 @@ As a static site generator, Jekyll has no means to provide a commenting system. 
 // You can paste the Universal Embed Code from disqus here
 
 </section>         
-{% endif %}```
+{% endif %}
+```
 
 Modifying
 ---------
