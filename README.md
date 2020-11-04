@@ -109,7 +109,7 @@ As a static site generator, Jekyll has no means to provide a commenting system. 
 
 3. Copy and paste the Universal Embed Code under post.html layout
 
-`{% comment %}
+```{% comment %}
 {% endcomment %}
 
 {% if page.comments %}
@@ -120,7 +120,7 @@ As a static site generator, Jekyll has no means to provide a commenting system. 
 // You can paste the Universal Embed Code from disqus here
 
 </section>         
-{% endif %}`
+{% endif %}```
 
 Modifying
 ---------
