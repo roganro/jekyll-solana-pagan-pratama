@@ -1,56 +1,52 @@
-Solana – a Wholesome, Flat, Sunshiny Jekyll Theme
+jekyll-solana-pagan-pratama
 ===============================================
 
-**Solana** is a theme for the [Jekyll][jk] static site generator. [View the demo][demo].
+I modified it by adding jekyll-paginate-multiple plugin and Comments via disqus. [View the demo][demo_A].
 
-### Features
+### jekyll-solana-pagan-pratama Features
 
-* Compatible with GitHub Pages
-* Supports categories & tags
-* Responsive design
-* Lightweight (no jQuery, Bootstrap, etc.) 
-* Obfuscates email addresses for protection against email harvesting bots
-* Comments via outbound links to Reddit
+* Same as [Solana][rlue] features but does not support GitHub Pages
+* Supports pagination function to multiple Jekyll page
+* Comments via disqus
 
-![](https://raw.githubusercontent.com/rlue/i/master/solana/responsive.gif)
+Preview
+------------
+
+### Desktop
+
+![](https://live.staticflickr.com/65535/50564997218_a500888275_o_d.png)
+
+### Tab
+
+![](https://live.staticflickr.com/65535/50565882412_234c2d2f26_o_d.png)
+
+![](https://live.staticflickr.com/65535/50565882312_2459593e3e_o_d.png)
+
+### Phone
+
+![](https://live.staticflickr.com/65535/50565744196_81a8d4ba6b_o_d.png)
+
+![](https://live.staticflickr.com/65535/50564997113_ea9823433f_o_d.png)
 
 ![](https://live.staticflickr.com/65535/48981450192_e20e9268fb_o_d.jpg)
 
 Installation
 ------------
 
-### Cloning Solana to your GitHub Pages
-
-1. Prepare a [new GitHub repository][new] named after your GitHub Pages address (`<username>.github.io`). Do not initialize with a `README`, `.gitignore`, or license.
-2. Clone this repository:
-
-        $ git clone https://github.com/rlue/jekyll-solana.git
-
-3. Associate your local copy with the GitHub Pages repo you just created:
-
-        $ cd solana
-        $ git remote rm origin
-        $ git remote add origin https://github.com/<username>/<username>.github.io
-
-4. In `_config.yml`, replace the `baseurl` site variable (`/jekyll-solana`) with an empty string (`''`):
-
-        $ sed -i "s/\/jekyll-solana/''            /" _config.yml     # on UNIX
-        $ sed -i '' "s/\/jekyll-solana/''            /" _config.yml  # on Mac
-
-5. And push:
-
-        $ git push -u origin master
-
-In just a few minutes, your site should be live at https://\<username\>.github.io/!
-
-### Previewing the site on your machine
+### Cloning jekyll-solana-pagan-pratama to your Local Computer
 
 1. Ensure that you have a Ruby development environment installed on your machine, including [Bundler][bun].
-2. Install the dependencies:
+
+2. Clone this repository:
+
+        $ git clone https://github.com/roganro/jekyll-solana-pagan-pratama.git
+        $ cd jekyll-solana-pagan-pratama
+
+3. Install the dependencies:
 
         $ bundle install
 
-3. Start the server: 
+4. Start the server: 
 
         $ bundle exec jekyll serve
 
@@ -124,7 +120,7 @@ License
 © 2017 Ryan Lue. This project is licensed under the terms of the MIT license.
 
 [jk]: http://jekyllrb.com/
-[demo]: https://solana.ryanlue.com/
+[rlue]: https://github.com/rlue/jekyll-solana
 [new]: https://github.com/new
 [bun]: https://github.com/bundler/bundler#installation-and-usage
 [doc-fm]: https://jekyllrb.com/docs/frontmatter/
@@ -133,3 +129,4 @@ License
 [doc-dirs]: https://jekyllrb.com/docs/structure/
 [doc-qs]: https://jekyllrb.com/docs/quickstart/
 [itcss]: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
+[demo_A]: https://developer.rfproduction.com/
