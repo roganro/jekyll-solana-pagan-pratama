@@ -2,15 +2,15 @@
 # Theme Customization #
 #######################
 
-title: Pagan                              # used in <title> tag & site header
+title: Pagan                                # used in <title> tag & site header
 author: Pagan                               # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
   Blog pribadi yang berisi kumpulan tulisan random,
   Berasal dari pengalaman yang pernah saya alami.
-slogan: Pratama                            # used in site header, beside title
+slogan: Pratama                             # used in site header, beside title
 avatar: /i/avatar.png                       # used as portrait in site header
 banner: /i/mountains.svg                    # used as background in site header
-url: https://roganro.github.io            # used by plugins to generate feed.xml and sitemap.xml
+url: https://developer.rfproduction.com     # used by plugins to generate feed.xml and sitemap.xml
 baseurl: ''                                 # prepended to all absolute filepaths
 repo: https://github.com/rlue/jekyll-solana # used in footer
 
@@ -85,11 +85,3 @@ defaults:
 # File Handling
 include: [archives]
 exclude: [lib, config.rb, .sass-cache, Capfile, config, log, Rakefile, Rakefile.rb, tmp, Gemfile, Gemfile.lock, README.md, LICENSE.md, node_modules, gulpfile.js, package.json, TODO.md, .travis.yml, bin/*, circle.yml, yarn.lock]
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-paginate-multiple
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-admin
