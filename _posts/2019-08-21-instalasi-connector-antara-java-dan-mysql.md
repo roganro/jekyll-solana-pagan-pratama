@@ -1,7 +1,7 @@
 ---
 title: Instalasi Connector antara Java dan MySQL
 author: Pagan
-date: '2017-01-30 07:02:22 +0000'
+date: 2017-01-30T07:02:22+07:00
 layout: post
 teaser: Satu komponen lagi yang harus Anda instal adalah driver JDBC untuk MySQL. Driver ini akan kita perlukan dalam mempelajari koneksi antara database MySQL dengan Java.
 link: http://javaonlinux.xyz/?p=34

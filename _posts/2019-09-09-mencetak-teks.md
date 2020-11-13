@@ -1,7 +1,7 @@
 ---
 title: Mencetak Teks
 author: Pagan
-date: '2017-01-30 19:32:53 +0000'
+date: 2017-01-30T19:32:53+07:00
 layout: post
 teaser: Pembahasan dengan membuat program untuk menulis teks di atas layar dengan
   Java.

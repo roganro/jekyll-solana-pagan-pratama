@@ -1,7 +1,7 @@
 ---
 title: Bekerja dengan Database
 author: Pagan
-date: '2017-01-30 07:08:40 +0000'
+date: 2017-01-30T07:08:40+07:00
 layout: post
 teaser: Di dalam aplikasi yang akan Anda buat, dibutuhkan database untuk menyimpan sumber data aplikasi.
 link: http://javaonlinux.xyz/?p=32

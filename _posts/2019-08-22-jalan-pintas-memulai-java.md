@@ -1,7 +1,7 @@
 ---
 title: Jalan Pintas Memulai Java
 author: Pagan
-date: '2017-01-30 18:31:21 +0000'
+date: 2017-01-30T18:31:21+07:00
 layout: post
 teaser: Menggunakan bentuk dasar agar mempermudah dalam mempelajari Java.
 link: http://javaonlinux.xyz/?p=41

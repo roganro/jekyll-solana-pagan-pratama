@@ -1,7 +1,7 @@
 ---
 title: Instalasi Java 2 SDK dan Java IDE
 author: Pagan
-date: '2017-01-30 16:57:02 +0000'
+date: 2017-01-30T16:57:02+07:00
 layout: post
 teaser: Langkah-langkah untuk menginstall Java (SDK tentunya) pada Linux.
 link: http://javaonlinux.xyz/?p=15

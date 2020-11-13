@@ -1,7 +1,7 @@
 ---
 title: Kompilasi dan Eksekusi
 author: Pagan
-date: '2017-01-30 15:16:08 +0000'
+date: 2017-01-30T15:16:08+07:00
 layout: post
 teaser: Pada Java, program tidak dikompilasi langsung pada hardware masing-masing.
 link: http://javaonlinux.xyz/?p=29

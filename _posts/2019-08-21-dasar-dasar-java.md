@@ -1,7 +1,7 @@
 ---
 title: Dasar-Dasar Java
 author: Pagan
-date: '2017-01-30 17:07:53 +0000'
+date: 2017-01-30T17:07:53+07:00
 layout: post
 teaser: Untuk mempelajari Java, Anda tidak diharuskan menguasai bahasa pemrograman
   sebelumnya.
