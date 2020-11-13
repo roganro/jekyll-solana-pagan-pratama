@@ -1,7 +1,7 @@
 ---
 title: 'Config Squid Conf Versi 4 with blocklist #24052010'
 author: aderana
-date: '2010-06-24 07:04:46 +0000'
+date: 2010-06-24T07:04:46+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/06/24/config-squid-conf-versi-4-with-blocklist-24052010/
 category: teknologi

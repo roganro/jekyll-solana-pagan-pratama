@@ -1,7 +1,7 @@
 ---
 title: Cerita Mengharukan Pemain Ragnarok
 author: Pagan
-date: '2010-04-25 20:05:39 +0000'
+date: 2010-04-25T20:05:39+07:00
 layout: post
 teaser: Menceritakan kisah dua orang yang dipertemukan karena bermain game Ragnarok.
 link: https://94nr0.wordpress.com/2010/04/26/cerita-mengharukan-pemain-ragnarok/

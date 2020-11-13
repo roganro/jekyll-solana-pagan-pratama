@@ -1,7 +1,7 @@
 ---
 title: Siklus Hidup Sistem
 author: aderana
-date: '2010-05-24 17:03:08 +0000'
+date: 2010-05-24T17:03:08+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/05/25/siklus-hidup-sistem/
 category: teknologi

@@ -1,7 +1,7 @@
 ---
 title: Tsubasa Chronicle Tokyo Revelations
 author: aderana
-date: '2010-06-24 07:55:28 +0000'
+date: 2010-06-24T07:55:28+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/06/24/tsubasa-reservoir-chronicle/
 category: hiburan

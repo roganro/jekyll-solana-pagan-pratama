@@ -1,7 +1,7 @@
 ---
 title: Tv Streaming Server Side
 author: aderana
-date: '2010-04-25 19:16:17 +0000'
+date: 2010-04-25T19:16:17+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/04/26/tv-streaming/
 category: teknologi

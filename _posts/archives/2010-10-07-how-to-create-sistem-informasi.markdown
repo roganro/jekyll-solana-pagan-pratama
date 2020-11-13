@@ -1,7 +1,7 @@
 ---
 title: How To Create SISTEM INFORMASI
 author: aderana
-date: '2010-10-07 16:10:50 +0000'
+date: 2010-10-07T16:10:50+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/10/07/how-to-create-sistem-informasi/
 category: teknologi

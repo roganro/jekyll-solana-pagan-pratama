@@ -1,7 +1,7 @@
 ---
 title: Definisi dan contoh Sistem Terdistribusi
 author: Pagan
-date: '2012-03-13 16:41:14 +0000'
+date: 2012-03-13T16:41:14+07:00
 layout: post
 teaser: Sistem terdistribusi adalah sebuah sistem dimana komponen software atau hardware-nya terletak di dalam jaringan komputer dan saling berkomunikasi menggunakan message passing.
 link: https://94nr0.wordpress.com/2012/03/13/definisi-dan-contoh-sistem-terdistribusi/

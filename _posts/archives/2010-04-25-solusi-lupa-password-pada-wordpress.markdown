@@ -1,7 +1,7 @@
 ---
 title: Solusi Lupa Password Pada Wordpress
 author: aderana
-date: '2010-04-25 17:50:14 +0000'
+date: 2010-04-25T17:50:14+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/04/26/solusi-lupa-password-pada-wordpress/
 category: teknologi

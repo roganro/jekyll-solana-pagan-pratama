@@ -1,7 +1,7 @@
 ---
 title: 'Config Squid Conf Versi 3 #29042010'
 author: aderana
-date: '2010-05-10 14:12:08 +0000'
+date: 2010-05-10T14:12:08+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/05/10/config-squid-conf-versi-3-29042010/
 category: teknologi

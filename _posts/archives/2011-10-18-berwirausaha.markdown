@@ -1,7 +1,7 @@
 ---
 title: Berwirausaha
 author: aderana
-date: '2011-10-18 16:31:51 +0000'
+date: 2011-10-18T16:31:51+07:00
 layout: post
 link: https://94nr0.wordpress.com/2011/10/18/berwirausaha/
 category: teknologi

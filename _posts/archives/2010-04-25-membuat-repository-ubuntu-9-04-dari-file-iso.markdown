@@ -2,7 +2,7 @@
 title: Membuat Repository Ubuntu 9.04 Dari File Iso
 author: aderana
 comments: true
-date: '2010-04-25 19:57:24 +0000'
+date: 2010-04-25T19:57:24+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/04/26/membuat-repository-ubuntu-9-04-dari-file-iso/
 category: teknologi

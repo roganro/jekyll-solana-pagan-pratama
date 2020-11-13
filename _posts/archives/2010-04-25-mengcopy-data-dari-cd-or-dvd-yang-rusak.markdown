@@ -1,7 +1,7 @@
 ---
 title: Mengcopy Data Dari Cd or Dvd yang Rusak
 author: aderana
-date: '2010-04-25 19:51:13 +0000'
+date: 2010-04-25T19:51:13+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/04/26/mengcopy-data-dari-cd-or-dvd-yang-rusak/
 category: teknologi

@@ -1,7 +1,7 @@
 ---
 title: Konsep Networking
 author: aderana
-date: '2010-04-28 13:32:02 +0000'
+date: 2010-04-28T13:32:02+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/04/28/konsep-networking/
 category: teknologi

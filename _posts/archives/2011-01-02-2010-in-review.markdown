@@ -1,7 +1,7 @@
 ---
 title: 2010 in review
 author: aderana
-date: '2011-01-02 13:06:47 +0000'
+date: 2011-01-02T13:06:47+07:00
 layout: post
 link: https://94nr0.wordpress.com/2011/01/02/2010-in-review/
 category: teknologi

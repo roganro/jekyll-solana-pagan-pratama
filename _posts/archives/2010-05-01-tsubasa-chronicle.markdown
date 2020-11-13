@@ -1,7 +1,7 @@
 ---
 title: Tsubasa Chronicle Season 1 & 2
 author: aderana
-date: '2010-05-01 13:07:08 +0000'
+date: 2010-05-01T13:07:08+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/05/01/tsubasa-chronicle/
 category: hiburan

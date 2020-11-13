@@ -9,7 +9,7 @@ tags:
 - multimedia
 - video
 author: aderana
-date: '2010-04-25 05:59:59 +0000'
+date: 2010-04-25T05:59:59+07:00
 link: https://94nr0.wordpress.com/2010/04/25/hello-world/
 ---
 

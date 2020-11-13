@@ -1,7 +1,7 @@
 ---
 title: Bikin Proxy Server Di Windows
 author: Pagan
-date: '2010-04-25 19:30:08 +0000'
+date: 2010-04-25T19:30:08+07:00
 layout: post
 teaser: Membuat proxy server dengan menggunakan Squid pada sistem operasi Windows.
 link: https://94nr0.wordpress.com/2010/04/26/bikin-proxy-server-di-windows/

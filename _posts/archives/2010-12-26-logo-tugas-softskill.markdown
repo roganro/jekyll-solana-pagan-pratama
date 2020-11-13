@@ -1,7 +1,7 @@
 ---
 title: Logo (Tugas Softskill)
 author: aderana
-date: '2010-12-26 07:16:16 +0000'
+date: 2010-12-26T07:16:16+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/12/26/logo-tugas-softskill/
 category: life

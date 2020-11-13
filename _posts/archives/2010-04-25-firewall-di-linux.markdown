@@ -1,7 +1,7 @@
 ---
 title: Firewall di Linux
 author: aderana
-date: '2010-04-25 17:43:33 +0000'
+date: 2010-04-25T17:43:33+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/04/26/firewall-di-linux/
 category: teknologi

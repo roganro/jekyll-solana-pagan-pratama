@@ -9,7 +9,7 @@ tags:
 - repositori
 - foss
 author: aderana
-date: '2010-04-25 17:39:28 +0000'
+date: 2010-04-25T17:39:28+07:00
 link: https://94nr0.wordpress.com/2010/04/26/repo-for-pclos-2007/
 ---
 

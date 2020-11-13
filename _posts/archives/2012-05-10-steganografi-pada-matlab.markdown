@@ -1,7 +1,7 @@
 ---
 title: Steganografi pada MATLAB
 author: Pagan
-date: '2012-05-10 13:15:35 +0000'
+date: 2012-05-10T13:15:35+07:00
 layout: post
 teaser: Steganografi tidak mengubah pesan menjadi kode-kode tertentu melainkan menyisipkan
   pesan pada suatu objek, dimana objek yang telah disisipi pesan tidak akan mengalami

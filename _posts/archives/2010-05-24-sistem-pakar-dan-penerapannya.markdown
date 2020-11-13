@@ -1,7 +1,7 @@
 ---
 title: Sistem Pakar dan Penerapannya
 author: aderana
-date: '2010-05-24 16:31:47 +0000'
+date: 2010-05-24T16:31:47+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/05/24/sistem-pakar-dan-penerapannya/
 category: teknologi

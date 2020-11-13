@@ -1,7 +1,7 @@
 ---
 title: Tv Streaming Client Side
 author: Pagan
-date: '2012-12-24 20:11:32 +0000'
+date: 2012-12-24T20:11:32+07:00
 layout: post
 teaser: Tutorial untuk menonton tv streaming yang di broadcast oleh Unreal Media Server.
 link: https://94nr0.wordpress.com/2012/12/25/tv-streaming-client-side/

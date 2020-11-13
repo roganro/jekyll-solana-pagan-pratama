@@ -1,7 +1,7 @@
 ---
 title: Source Npc For Ragnarok
 author: aderana
-date: '2010-04-25 20:09:41 +0000'
+date: 2010-04-25T20:09:41+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/04/26/source-npc-for-ragnarok/
 category: teknologi

@@ -1,7 +1,7 @@
 ---
 title: Open Source dan Internet
 author: aderana
-date: '2010-04-25 19:24:31 +0000'
+date: 2010-04-25T19:24:31+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/04/26/open-source-dan-internet/
 category: teknologi

@@ -1,7 +1,7 @@
 ---
 title: Desain Pemodelan Grafik
 author: aderana
-date: '2010-10-10 16:42:56 +0000'
+date: 2010-10-10T16:42:56+07:00
 layout: post
 link: https://94nr0.wordpress.com/2010/10/10/desain-pemodelan-grafik/
 category: teknologi

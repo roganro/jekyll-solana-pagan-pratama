@@ -1,7 +1,7 @@
 ---
 title: UKM dan Internet
 author: aderana
-date: '2011-10-18 11:10:54 +0000'
+date: 2011-10-18T11:10:54+07:00
 layout: post
 link: https://94nr0.wordpress.com/2011/10/18/ukm-dan-internet/
 category: teknologi
