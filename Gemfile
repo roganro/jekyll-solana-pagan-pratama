@@ -1,29 +1,22 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.6"
-
-# gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.9.0"
 
 group :jekyll_plugins do
-  gem "jekyll-admin"
   gem "jekyll-feed"
   gem "jekyll-paginate"
   gem "jekyll-paginate-multiple"
   gem "jekyll-sitemap"
 end
 
-gem "nokogiri", ">= 1.10.4"
+gem "json", ">= 2.3.0"
+gem "kramdown", ">= 2.3.0"
+gem "nokogiri", ">= 1.10.8"
 
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-gem "autoprefixer-rails"
-gem "html-proofer"
-gem "image_optim"
-gem "jekyll-assets"
-gem "jemoji"
-gem "mini_magick"
-gem "sass"
-gem "sprockets", "4.0.0.beta6"
-gem "uglifier"
+gem 'kramdown-parser-gfm', '~> 1.1'
+gem 'kramdown-syntax-coderay', '~> 1.0', '>= 1.0.1'
+gem 'kramdown-math-mathjaxnode', '~> 1.0'
+gem 'kramdown-math-sskatex', '~> 1.0'
+gem 'kramdown-math-katex', '~> 1.0', '>= 1.0.1'
+gem 'kramdown-math-ritex', '~> 1.0'
+gem 'kramdown-math-itex2mml', '~> 1.0'
